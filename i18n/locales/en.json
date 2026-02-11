@@ -1,0 +1,11 @@
+{
+  "languages": {
+    "id": "Indonesian",
+    "en": "English"
+  },
+  "mode": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
