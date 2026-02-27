@@ -7,5 +7,23 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "button": {},
+  "placeholder": {},
+  "footer": {
+    "expand": "Expand Your Bussiness Now!",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "hesitant": "Still hesitant to join Trumecs?",
+    "teach": {
+      "title": "Learn more about Trumecs",
+      "contentBefore": "Trumecs also provides ",
+      "content": "Articles",
+      "contentAfter": " for you to learn about the construction industry and more"
+    },
+    "info": {
+      "title": "Get the latest updates",
+      "content": "Subscribe for free to get the latest info about projects, construction, or tips and tricks for heavy equipment maintenance"
+    }
   }
 }

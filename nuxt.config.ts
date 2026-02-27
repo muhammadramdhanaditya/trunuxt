@@ -1,9 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// const i18nDomains = [
+//   "mydomain.com",
+//   "es.mydomain.com",
+//   "fr.mydomain.com",
+//   "http://pl.mydomain.com",
+//   "https://ua.mydomain.com",
+// ];
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  // ssr: false,
-
+  ssr: false,
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.NUXT_API_URL,
+      baseImage: process.env.NUXT_API_BASEIMG,
+      baseCat: process.env.NUXT_API_CATC,
+    },
+  },
   modules: [
     "@vueuse/nuxt",
     "@pinia/nuxt",
@@ -43,10 +58,23 @@ export default defineNuxtConfig({
         name: "Bahasa Indonesia",
       },
     ],
+    // locales: [
+    //   {
+    //     code: 'en',
+    //     domains: i18nDomains,
+    //     defaultForDomains: ['mydomain.com']
+    //   },
+    //   {
+    //     code: 'es',
+    //     domains: i18nDomains,
+    //     defaultForDomains: ['es.mydomain.com']
+    //   },
+    // ],
+    // multiDomainLocales: true,
     strategy: "prefix_except_default",
     lazy: true,
     langDir: "locales/",
-    defaultLocale: "en",
+    defaultLocale: "id",
     skipSettingLocaleOnNavigate: true,
     detectBrowserLanguage: {
       useCookie: true,

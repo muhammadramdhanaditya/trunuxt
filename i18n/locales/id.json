@@ -7,5 +7,23 @@
     "light": "Terang",
     "dark": "Gelap",
     "system": "Sistem"
+  },
+  "button": {},
+  "placeholder": {},
+  "footer": {
+    "expand": "Perluas Bisnis Anda Sekarang!",
+    "contactUs": "Hubungi Kami",
+    "followUs": "Ikuti Kami",
+    "hesitant": "Masih ragu untuk bergabung di Trumecs?",
+    "teach": {
+      "title": "Pelajari lebih lanjut tentang Trumecs",
+      "contentBefore": "Trumecs juga menyediakan ",
+      "content": "Artikel",
+      "contentAfter": " untuk anda pelajari dan informasi seputar industri kontruksi, dan lain-lain"
+    },
+    "info": {
+      "title": "Dapatkan info terbaru",
+      "content": "Berlangganan info terbaru(Secara Gratis) seputar proyek, konstruksi atau seputar trik dan tips perawatan alat berat"
+    }
   }
 }
